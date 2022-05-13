@@ -18,6 +18,7 @@ const CarRental = () => {
     useEffect(() => {
         checkLogin();
     },[]);
+    
     return(
         <>
         <Header/>

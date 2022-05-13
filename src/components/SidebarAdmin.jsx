@@ -41,9 +41,9 @@ const SidebarAdmin = () => {
                     </div>
                 </div>
             </div>
-            <div class="right-side w-100">
+            <div className="right-side w-100">
                 <NavbarAdmin/>
-                <div class="container-fluid">
+                <div className="container-fluid">
                     <ContentAdmin/>
                     <TableAdmin/>
                     <PaginationTable/>

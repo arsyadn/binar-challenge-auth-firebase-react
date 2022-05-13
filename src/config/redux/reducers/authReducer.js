@@ -1,5 +1,5 @@
 const initialState = {
-    dataLogin:[]
+    dataLogin:null,
 }
 
 const authReducer = (state = initialState, action) => { //action (type, payload)
@@ -7,7 +7,7 @@ const authReducer = (state = initialState, action) => { //action (type, payload)
         case "SET_DATA_LOGIN":
             return{
                 ...state,
-                dataLogin: action.payload
+                dataLogin: action.payload,
             }
             default:
                 return state;

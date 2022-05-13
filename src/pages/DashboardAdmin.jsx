@@ -11,6 +11,7 @@ const DashboardAdmin = () => {
         if(dataLogin?.email !== "admin@admin.com") navigate("/");
         //eslint-disable-next-line
     },[])
+
     return(
         <>
         <SidebarAdmin/>
