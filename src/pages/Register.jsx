@@ -63,14 +63,12 @@ const Register = () => {
                         onChange={(e) => setPassword(e.target.value)}
                         />
                     </div>
-                    <div className="pt-1 mb-4">
+                    <div className="pt-1 mb-4 d-flex flex-column">
                         <button onClick={handleRegister} className="btn btn-click-login btn-test font-weight-bold" type="submit">Sign Up</button>
+                        <button onClick={handleLoginGoogle} className="btn-login-google">Login with Google</button>
                     </div>
                     <div className="d-flex justify-content-center">
                         <Link to="/login" className="have-an-acc">Already have an account? Login.</Link><br/><br/><br/>
-                    </div>
-                    <div className="d-flex justify-content-center">
-                        <button onClick={handleLoginGoogle} className="btn-login-google">Login with Google</button>
                     </div>
                 </div>
             </div>

@@ -64,10 +64,8 @@ const Login = () => {
                         onChange={(e) => setPassword(e.target.value)}
                         />
                     </div>
-                    <div className="pt-1 mb-4">
+                    <div className="pt-1 mb-4 d-flex flex-column">
                         <button onClick={handleLoginEmail} className="btn btn-click-login btn-test font-weight-bold">Sign In</button>
-                    </div><br/>
-                    <div className="d-flex justify-content-center">
                         <button onClick={handleLoginGoogle} className="btn-login-google">Login with Google</button>
                     </div>
                 </div>
