@@ -1,0 +1,15 @@
+.container-fluid{
+    background-color:#F4F5F7; 
+    padding: 0 25px;
+}
+.title-dashboard{
+    margin-bottom: 24px;
+}
+.logo-chevron{
+    margin: 0 4px;
+}
+.logo-brand{
+    width:4px; 
+    height:24px; 
+    background-color:#0D28A6;
+}

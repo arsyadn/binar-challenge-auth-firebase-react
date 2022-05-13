@@ -1,0 +1,44 @@
+.img-login{
+    object-fit:cover; 
+    object-position:right;
+}
+.login-logo{
+    background-color: #CFD4ED;
+    width:100px; 
+    height:34px;
+}
+.login-form h1{
+    font-size:24px;
+    font-weight: 700;
+}
+.form-label{
+    font-size:14px;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 12px;
+    height:auto;
+}
+
+form .btn-clicks{
+    background-color:#0D28A6;
+    color:#fff;
+    font-weight: 500;
+    width: 370px;
+}
+form .btn-clicks:hover{
+    background-color: #fff;
+    color: #0D28A6;
+    border: 1px solid #0D28A6;
+}
+form .btn-login-google{
+    background-color: #fff;
+    color: #0D28A6;
+    padding: 5px 10px;
+    border: 1px solid #0D28A6;
+    border-radius:5px;
+}
+form .btn-login-google:hover{
+    background-color: #0D28A6;
+    color: #fff;
+}

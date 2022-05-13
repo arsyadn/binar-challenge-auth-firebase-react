@@ -1,0 +1,68 @@
+/* Hero */
+.hero{
+    background-color: #F1F3FF;
+    padding-top:21px;
+}
+.hero-text{
+    padding-left: 110px;
+    padding-top: 40px;
+}
+.hero-bold{
+    color: #000;
+    font-size:36px;
+    font-weight:700;
+    line-height:54px;
+}
+.hero-light{
+    color: #000;
+    font-size:14px;
+    font-weight:300;
+}
+
+.hero-img{
+    padding-left: 30px;
+}
+.hero-btn{
+    background-color: #5CB85F !important;
+    color: #fff !important;
+    border: 1px solid #5CB85F !important;
+    font-weight:600 !important;
+}
+.hero-btn:hover{
+    background-color: #fff !important;
+    color: #5CB85F !important;
+    border: 1px solid #5CB85F !important;
+    
+}
+/* Hero */
+
+@media  only screen and (max-width:990px){
+    .hero-text{
+        padding: 0 20px;
+    }
+    .hero-light{
+        width: 100% !important;
+    }
+    .hero-img{
+        padding-left: 0;
+    }
+    .book-car{
+        width: 100%;
+    }
+    select{
+        width:100% !important;
+    }
+    .btn-cari{
+        width: 100% !important;
+        margin-top: 20px;
+    }
+    .select-date{
+        width: 100% !important;
+    }
+    .book-car{
+        position: relative !important;
+    }
+    .listcar-wrapper{
+        margin-top:20px;
+    }
+}
