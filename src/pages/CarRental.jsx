@@ -3,7 +3,7 @@ import HeroApp from '../components/HeroApp';
 import Footer from '../layouts/Footer';
 import {useSelector} from 'react-redux';
 import {useNavigate} from 'react-router-dom';
-import {useEffect} from 'react'
+import {useEffect} from 'react';
 
 
 const CarRental = () => {
@@ -17,7 +17,7 @@ const CarRental = () => {
 
     useEffect(() => {
         checkLogin();
-    },[]);
+    },[data]);
     
     return(
         <>

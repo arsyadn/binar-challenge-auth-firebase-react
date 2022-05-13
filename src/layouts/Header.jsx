@@ -1,7 +1,12 @@
 import {Navbar, Container, Nav, Button} from 'react-bootstrap';
 import '../styles/App.css'
+import {LogoutEmail} from '../config/redux/actions/authAction';
+import {useDispatch} from 'react-redux';
+import {useEffect} from 'react';
 
 const Header = () => {
+    const dispatch = useDispatch();
+
     return(   
     <Navbar collapseOnSelect expand="lg" className="navbar">
         <Container>
@@ -12,7 +17,7 @@ const Header = () => {
                 <Nav.Link href="#features" className="nav-link">Why Us</Nav.Link>
                 <Nav.Link href="#pricing" className="nav-link">Testimonial</Nav.Link>
                 <Nav.Link href="#pricing" className="nav-link">FAQ</Nav.Link>
-                <Button href="#register" className="nav-btn">Register</Button>
+                <Button onClick={() => dispatch(LogoutEmail())} className="nav-btn">Logout</Button>
             </Navbar.Collapse>
         </Container>
     </Navbar>

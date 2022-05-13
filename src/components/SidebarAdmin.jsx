@@ -14,13 +14,13 @@ const SidebarAdmin = () => {
         <div className="divide-side d-flex w-100">
             <div className="left-side d-flex">
                 <div className="nav-icon d-flex flex-column">
-                    <div className="sidebar-logo">
+                    <div className="sidebar-logo d-flex justify-content-center">
                         <p className="icon-sidebar"></p>
                     </div>	
-                    <Link to="#" className="items-sidebar-menu-active"/>
+                    <Link to="#" className="items-sidebar-menu-active">
                         <Image src={IconHome} alt="icon home" className="icon-sidebar-menu"/> 
                         <p className="text-icon-dashboard">Dashboard</p>
-                    
+                    </Link>
                     <Link to="/list-cars" className="items-sidebar-menu">
                         <Image src={IconTruck} alt="icon cars" className="icon-sidebar-menu"/>
                         <p className="text-icon-cars">Cars</p>

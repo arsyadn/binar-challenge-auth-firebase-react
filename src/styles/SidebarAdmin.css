@@ -1,3 +1,4 @@
+
 .nav-icon{
     width:70px;
     height:902px; 
@@ -10,6 +11,9 @@
 }
 .text-icon-dashboard{
     margin: 0 2px;
+    color: #fff;
+    font-size:12px;
+    font-weight:700;
 }
 .text-icon-cars{
     margin: 0 20px;
@@ -17,4 +21,76 @@
 .container-fluid{
     background-color:#F4F5F7; 
     padding: 0 25px;
+}
+.sidebar-logo{
+    margin-top: 5px;
+}
+.icon-sidebar{
+	margin: 18px;
+}
+.items-sidebar-menu{
+	font-size: 12px;
+	font-weight:300;
+	color: #fff;
+	padding: 12px 0;
+    text-decoration: none;
+}
+.items-sidebar-menu:hover{
+	color: #fff;
+	font-weight: 700;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.items-sidebar-menu-active{
+	padding: 12px 0;
+	font-size: 12px;
+	font-weight:300;
+	color: #fff;
+	background-color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+}
+.items-sidebar-menu-active:hover{
+	color: #fff;
+}
+.icon-sidebar-menu{
+	margin: 0 23px;
+}
+
+.top-sidebar{
+	width: 220px;
+	height: 64px;
+	background-color:#fff;
+	padding-left: 24px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+}
+.longer-logo{
+	width:100px;
+	height: 34px;
+	background-color:#CFD4ED;
+}
+.bottom-sidebar{
+	width: 220px;
+	height: 838px;
+	background-color:#fff;
+	padding-top: 24px;
+}
+.bottom-sidebar p{
+	margin: 0;
+}
+.title-main-menu{
+	padding-top: 11px;
+	padding-bottom:11px;
+	padding-left: 24px;
+	color: #8A8A8A;
+	font-weight:700;
+	font-size:14px;
+}
+.title-main-sec{
+	padding-top: 11px;
+	padding-bottom:11px;
+	padding-left: 24px;
+	color: #151515;
+	font-weight:700;
+	background-color: #CFD4ED;
+	font-size:14px;
 }

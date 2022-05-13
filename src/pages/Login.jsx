@@ -65,7 +65,7 @@ const Login = () => {
                         />
                     </div>
                     <div className="pt-1 mb-4">
-                        <button onClick={handleLoginEmail} className="btn btn-clicks btn-test font-weight-bold">Sign In</button>
+                        <button onClick={handleLoginEmail} className="btn btn-click-login btn-test font-weight-bold">Sign In</button>
                     </div><br/>
                     <div className="d-flex justify-content-center">
                         <button onClick={handleLoginGoogle} className="btn-login-google">Login with Google</button>

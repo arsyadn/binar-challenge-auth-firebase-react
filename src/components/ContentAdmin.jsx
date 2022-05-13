@@ -8,7 +8,7 @@ const ContentAdmin = () => {
                     <div className="title-dashboard d-flex">
                         <div className="title-dashboard d-flex align-items-center">
                             <p className="title-bold">Dashboard</p>
-                            <p className="logo-chevron"><i className='bx bx-chevron-right title-bold'></i></p>
+                            <p className="logo-chevron">&gt;</p>
                             <p className="title-light">Dashboard</p>
                         </div>
                     </div>

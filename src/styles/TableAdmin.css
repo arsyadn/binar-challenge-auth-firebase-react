@@ -1,14 +1,17 @@
-.title-dashboard{
-    margin-bottom: 24px;
-}
-.chevron-logo{
-    margin: 0 4px;
+
+.table{
+	border-radius: 100px;
 }
 .thead{
-    border: 0px;
+	background-color:#CFD4ED;
 }
-.logo-dashboard{
-    width:4px; 
-    height:24px; 
-    background-color:#0D28A6;
+.thead{
+	font-size:14px;
+}
+.tbody{
+	font-size: 12px;
+	background-color:#fff;
+}
+.btn-toggle{
+	color: #D0D0D0;
 }

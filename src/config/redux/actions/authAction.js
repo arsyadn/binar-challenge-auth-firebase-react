@@ -14,3 +14,9 @@ export const LoginEmail = (email, password) => {
         dispatch({type:"SET_DATA_LOGIN", payload: { email, password }});
     }
 }
+
+export const LogoutEmail = () => {
+    return(dispatch) => {
+        dispatch({type:"SET_DATA_LOGOUT"})
+    }
+}

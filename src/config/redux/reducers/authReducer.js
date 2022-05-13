@@ -9,6 +9,10 @@ const authReducer = (state = initialState, action) => { //action (type, payload)
                 ...state,
                 dataLogin: action.payload,
             }
+        case "SET_DATA_LOGOUT":
+            return{
+                dataLogin: null,
+            }
             default:
                 return state;
     }

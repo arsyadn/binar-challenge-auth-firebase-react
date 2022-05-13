@@ -3,21 +3,6 @@ import '../styles/TableAdmin.css'
 const TableAdmin = () => {
     return(
       <>
-        <div className="dash-title">
-			<div className="title-dashboard d-flex">
-			    <div className="title-dashboard d-flex align-items-center">
-					<p className="title-bold">Dashboard</p>
-					<p className="chevron-logo"><i className='bx bx-chevron-right title-bold'></i></p>
-					<p className="title-light">Dashboard</p>
-				</div>
-			</div>
-			<p className="font-dashboard">Dashboard</p>
-			<div className="list-order d-flex align-items-center">
-				<p className="logo-dashboard"></p>
-				<p className="font-list">List Order</p>
-			</div>
-		</div>
-
         <table className="table table-hover rounded">
 			<thead className="thead">
 				<tr>
